@@ -45,3 +45,9 @@ Mock history is generated deterministically relative to today, and project alloc
 from it so the demo always shows each health state.
 
 Not in this prototype: Calendar, Analytics, leave, copy/paste, correction requests, helpdesk, offline sync.
+
+## Standalone demo
+
+`demo.html` is the same prototype pre-bundled into one HTML file (React 18 loaded from cdnjs).
+Open it directly in a browser — no build step. It's generated from `WorkTracker.jsx`, so edit the
+component and rebuild rather than editing `demo.html` by hand.
